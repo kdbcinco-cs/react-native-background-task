@@ -91,7 +91,6 @@ public class BackgroundTaskModule extends ReactContextBaseJavaModule
 
         mJobRequest = new JobRequest.Builder(RNJob.JOB_TAG)
                 .setPeriodic(TimeUnit.SECONDS.toMillis(period), TimeUnit.SECONDS.toMillis(flex))
-                .setPersisted(true)
                 .setExtras(extras)
                 .build();
 
