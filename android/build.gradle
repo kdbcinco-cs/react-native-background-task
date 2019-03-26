@@ -31,5 +31,5 @@ repositories {
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
-    compile 'com.evernote:android-job:1.1.11'
+    compile 'com.evernote:android-job:1.2.6'
 }
